@@ -13,15 +13,15 @@ public class TelaInicio extends JFrame {
 		setExtendedState(JFrame.MAXIMIZED_BOTH);
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		getContentPane().setBackground(Color.RED);
+		getContentPane().setBackground(Color.LIGHT_GRAY);
 		
 		//Criacão do texto
 		
-		JLabel titulo = new JLabel("Seja bem-vindo");
+		JLabel titulo = new JLabel("Atividade desenvolvida durante as aulas de Orientacão a Objetos");
 		
 		//Criacão do Botão
 		
-		JButton botao = new JButton("Hellou");
+		JButton botao = new JButton("Iniciar");
 		
 		
 		//Dicionando os componentes na janela
